@@ -1,0 +1,25 @@
+{
+  "name": "nexus-meet-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Custom SFU signaling server (Express + Socket.io + mediasoup + MongoDB Atlas)",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "http-status": "^2.1.0",
+    "mediasoup": "^3.14.11",
+    "mongoose": "^8.6.0",
+    "node-cache": "^5.1.2",
+    "socket.io": "^4.7.5"
+  }
+}
